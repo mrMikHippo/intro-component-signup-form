@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  padding: 10% 7%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-image: url('../images/bg-intro-mobile.png');
+  background-color: hsl(0, 100%, 74%);
+  color: #fdfdfd;
+}
+
+button, input {
+  outline-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Header */
+header {
+  margin-bottom: 50px;
+  color: #fdfdfd;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+.header-description {
+  line-height: 1.5;
+}
+
+/* Sign-up Section */
+.try-it-btn {
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0 5px 0 rgba(0,0,0,0.3);
+  transition: ease .5s;
+}
+
+.try-it-btn:hover {
+  cursor: pointer;
+}
+
+.try-it-btn:active {
+  background-color: hsl(248, 32%, 39%);
+  box-shadow: 0 0 0 rgba(0,0,0,0.4);
+}
+
+.sign-up-form {
+  margin: 20px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.3);
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form > input {
+  margin: 5px 0;
+  padding: 1rem;
+  border: 1px solid hsl(246, 25%, 93%);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sign-up-form button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid hsl(154, 59%, 41%);
+  background-color: hsl(154, 59%, 51%);
+  border-bottom-width: 3px;
+  transition: ease .5s;
+}
+
+.sign-up-form button:hover {
+  cursor: pointer;
+  background-color: hsl(154, 59%, 47%);
+}
+
+.sign-up-form button:active {
+  background-color: hsl(154, 59%, 57%);
+  border-bottom-width: 1px;
+  padding-bottom: 17px;
+}
+
+.sign-up-form p {
+  font-size: .7rem;
+  font-weight: 400;
+  color: hsl(246, 25%, 77%);
+}
+
+.terms-and-service-link {
+  color: hsl(0, 100%, 74%);
+}
+
+footer {
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+footer p {
+  display: flex;
+}
+
+footer p span {
+  flex: 1;
+}
+footer p span:first-of-type {
+  text-align: right;
+  padding-right: 5px;
+}
+
+footer p span:last-of-type {
+  text-align: left;
+  padding-right: 5px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
