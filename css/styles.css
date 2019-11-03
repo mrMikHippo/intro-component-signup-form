@@ -14,6 +14,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   background-image: url('../images/bg-intro-mobile.png');
+  background-size: contain;
   background-color: hsl(0, 100%, 74%);
   color: #fdfdfd;
 }
@@ -113,6 +114,18 @@ header h1 {
   font-size: .7rem;
   font-weight: 400;
   color: hsl(246, 25%, 77%);
+}
+
+.error {
+  background-image: url('../images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  border: 1px solid hsl(0, 100%, 74%);
+}
+
+.error-message {
+  color: hsl(0, 100%, 74%);
+  text-align: right;
 }
 
 .terms-and-service-link {

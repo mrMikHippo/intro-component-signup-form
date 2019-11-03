@@ -27,12 +27,12 @@
     <section class="sign-up-section">
       <button class="try-it-btn"><span class="bold">Try it free 7 days</span> then $20/mo. thereafter</button>
 
-      <form class="sign-up-form" novalidate>
-        <input type="text" name="first-name" aria-label="first-name" placeholder="First Name">
-        <input type="text" name="last-name" aria-label="last-name" placeholder="Last Name">
-        <input type="email" name="email-address" aria-label="email-address" placeholder="Email Address">
-        <input type="text" name="password" aria-label="password" placeholder="Password">
-        <button type="submit" name="submit-button">Claim your free trial</button>
+      <form class="sign-up-form" data-validate novalidate>
+        <input type="text" name="first-name" aria-label="first-name" placeholder="First Name" required>
+        <input type="text" name="last-name" aria-label="last-name" placeholder="Last Name" required>
+        <input type="email" name="email" aria-label="email" placeholder="Email Address" data-bouncer-message="Looks like this is not an email" required>
+        <input type="password" name="password" aria-label="password" placeholder="Password" minlength="6" required>
+        <button type="submit" name="submit">Claim your free trial</button>
         <p>By clicking the button, you are agreeing to our <a class="terms-and-service-link" href="#">Terms and Services</a></p>
       </form>
     </section>
@@ -49,6 +49,9 @@
   </div>
 
 
+  <script src="js/bouncer.polyfills.min.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>

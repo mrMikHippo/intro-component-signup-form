@@ -12,12 +12,13 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
   body {
     height: 100vh;
     padding-bottom: 20px;
     text-align: left;
+    background-image: url('../images/bg-intro-desktop.png');
   }
   .wrapper {
     height: 100%;
