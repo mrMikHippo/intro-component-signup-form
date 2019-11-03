@@ -32,13 +32,13 @@ a {
   font-weight: 500;
 }
 
-/* Header */
-header {
+/* Main Section */
+main {
   margin-bottom: 50px;
   color: #fdfdfd;
 }
 
-header h1 {
+main h1 {
   font-weight: 700;
 }
 

@@ -1,4 +1,4 @@
-var validate = new Bouncer('[data-validate]', {
+var validate = new Bouncer('form', {
   // Disable from submission
   disableSubmit: true,
 
