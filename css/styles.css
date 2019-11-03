@@ -45,6 +45,7 @@ header h1 {
 .try-it-btn {
   font-size: 1.3rem;
   padding: 10px 20px;
+  width: 100%;
   color: #fff;
   border: none;
   border-radius: 10px;
