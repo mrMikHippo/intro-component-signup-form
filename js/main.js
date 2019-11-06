@@ -1,5 +1,5 @@
 var validate = new Bouncer('form', {
-  // Disable from submission
+  // Disable form submission
   disableSubmit: true,
 
   messages: {
